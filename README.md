@@ -826,6 +826,5 @@ Qualibytes-Ecommerce/
 - **`05-secrets.yaml` has placeholder values** — replace `change-this-in-production` before deploying.
 - **`output: 'standalone'` in `next.config.js`** is required — without it, Docker image won't contain `server.js`.
 - **`docker-compose.yml` includes `build:` directives** — it builds images locally from Dockerfiles, not just pulls.
-- **Region is `ap-south-1`** (Mumbai) — the README previously mentioned `eu-west-1` which was incorrect.
 - **EC2 public IPs change on restart** — assign an Elastic IP for a fixed address, or update webhook URLs after restart.
 - **Helm repos are session-scoped** — re-run `helm repo add` commands after EC2 restart.
