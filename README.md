@@ -92,6 +92,7 @@ git config --global user.email "your@email.com"
 # 4. Docker + Docker Compose
 sudo apt-get install docker.io -y
 sudo usermod -aG docker $USER
+newgrp docker
 # LOGOUT and LOGIN again for the group change to take effect
 
 # Docker Compose Plugin (not included in Ubuntu's docker.io package)
