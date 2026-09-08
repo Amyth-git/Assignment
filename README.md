@@ -127,7 +127,7 @@ kubectl version --client && helm version --short && eksctl version
 > ⚠️ **IMPORTANT:** Fork both repos and update the DockerHub username
 
 **Fork App Repo:**
-1. Fork: `https://github.com/Satyams-git/Qualibytes-Ecommerce`
+1. Fork: `https://github.com/Amyth-git/Assignment.git`
 2. Edit `Jenkinsfile` — change `DOCKER_IMAGE_NAME` and `DOCKER_MIGRATION_IMAGE_NAME` to your DockerHub username
 3. Edit `kubernetes/08-qbshop-deployment.yaml` — change image name to your DockerHub username
 4. Edit `kubernetes/12-migration-job.yaml` — change image name to your DockerHub username
