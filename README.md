@@ -136,7 +136,7 @@ kubectl version --client && helm version --short && eksctl version
 7. Edit `kubernetes/04-configmap.yaml` — change domain URLs to yours
 
 **Fork Shared Library Repo:**
-1. Fork: `https://github.com/Satyams-git/jenkins-shared-library`
+1. Fork: `https://github.com/Amyth-git/Jenkins-shared-library.git`
 2. Edit `vars/update_k8s_manifests.groovy`:
    - Change DockerHub username to yours
    - **Remove or update** the Ingress host sed line (it overwrites your domain with `asriv.shop` on every build)
