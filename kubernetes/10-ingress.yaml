@@ -17,5 +17,3 @@ spec:
                 name: qbshop-service
                 port:
                   number: 80
-```
-
